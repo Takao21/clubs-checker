@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Basketball Club",
+    "members": ["Akashi Seijuro", "Aomine Daiki", "Midorima Shintaro", "Kise Ryouta", "Murasakibara Atsushi", "Kuroko Tetsuya"]
+  },
+  {
+    "name": "Swimming Club",
+    "members": ["Haruka Nanase", "Rin Matsuoka", "Makoto Tachibana", "Nagisa Hazuki", "Rei Ryugazaki"]
+  },
+  {
+    "name": "Chess Club",
+    "members": ["L Lawliet", "Lelouch Britannia", "Sora Kuuhaku", "Shiro Kuuhaku", "Light Yagami", "Ciel Phantomhive"]
+  },
+  {
+    "name": "Cooking Club",
+    "members": ["Yukihira Souma", "Hayama Akira", "Nakiri Erina", "Tadokoro Megumi", "Arato Hisako", "Ikumi Mito", "Takumi Aldini", "Isami Aldini", "Isshiki Satoshi"]
+  },
+  {
+    "name": "Music Club",
+    "members": ["Hirasawa Yui", "Miyazono Kaori", "Arima Kousei", "Nishikino Maki", "Kai Ichinose", "Arisugawa Nino"]
+  },
+  {
+    "name": "Academics Club",
+    "members": ["Koro Sensei", "Takishima Kei", "Hanazono Hikari", "Ayanokoji Kiyotaka", "Oreki Houtarou"]
+  },
+  {
+    "name": "Volleyball Club",
+    "members": ["Kageyama Tobio", "Tooru Oikawa", "Nishinoya Yuu", "Kuroo Tetsurou", "Tsukishima Kei"]
+  },
+  {
+    "name": "Video Games Club",
+    "members": ["Katsuragi Keima", "Amano Keita", "Tendo Karen", "Tasuku Uehara", "Sakurano Aguri", "Hoshinomori Chiaki", "Suzukaze Aoba"]
+  },
+  {
+    "name": "Baseball Club",
+    "members": ["Ren Mihashi", "Takaya Abe", "Kazuya Uesugi", "Tatsuya Uesugi", "Hideki Hinata", "Ryu Sanada", "Shota Kazehaya", "Takeshi Yamamoto"]
+  }
+]

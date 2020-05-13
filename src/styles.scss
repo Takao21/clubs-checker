@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-size: 100%;
+}
+
+.p-0 {
+  padding: 0 !important;
+  margin: auto;
+}
+
+html {
+  font-size: 1rem;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  html {
+    font-size: 1rem;
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.2rem;
+  }
+}

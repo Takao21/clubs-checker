@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #dae7ed;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 6em; /* Place content 6em from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  margin-right: 1em;
+}
+.sidenav a:first-child {
+  margin: 0;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navbar-brand {
+  user-select: none;
+  font-family: 'Pacifico', cursive;
+}

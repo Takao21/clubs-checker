@@ -1,0 +1,10 @@
+<div class="container-fluid text-center p-0">
+  <p class="alert-primary"><i class="fas fa-info-circle"></i> This page is just a visualization of our pesudo database for testing purposes. Not a front-end feature.</p>
+  <h5>Total Clubs: {{ records.length }}</h5>
+  <div class="container">
+    <ul *ngFor="let record of records">
+      <h3>{{ record.name.toUpperCase() }}</h3>
+      <li *ngFor="let member of record.members">{{ member }}</li>
+    </ul>
+  </div>
+</div>

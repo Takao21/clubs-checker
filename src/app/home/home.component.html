@@ -1,0 +1,71 @@
+<div class="container-fluid home-body p-0">
+  <div class="container-fluid text-center p-0">
+    <p class="alert-primary"><i class="fas fa-info-circle"></i> Please see the Clubs page to test this feature.</p>
+  </div>
+  <div class="container text-center person-input">
+    <h3 class="title">Is This Person In That Club?</h3>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control no-outline" id="personInputFirst" name="person-first" placeholder="First Name" value="">
+      <span id="and"></span>
+      <input type="text" class="form-control no-outline" id="personInputLast" name="person-last" placeholder="Last Name" value="">
+    </div>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control no-outline" id="clubInput" name="clubname" placeholder="Full Club Name" value="">
+      <span id="and"></span>
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit" (click)="checkClubs()">Check</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="animation-ctn run-anim">
+      <div class="icon icon--order-success svg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="154px" height="154px">
+          <g fill="none" stroke="#22AE73" stroke-width="2">
+            <circle cx="77" cy="77" r="72" style="stroke-dasharray:480px, 480px; stroke-dashoffset: 960px;"></circle>
+            <circle id="colored" fill="#22AE73" cx="77" cy="77" r="72" style="stroke-dasharray:480px, 480px; stroke-dashoffset: 960px;"></circle>
+            <polyline class="st0" stroke="#fff" stroke-width="10" points="43.5,77.8 63.7,97.9 112.2,49.4 " style="stroke-dasharray:100px, 100px; stroke-dashoffset: 200px;" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="container">
+      <div class="animation-ctn run-anim">
+        <div class="icon icon--order-success svg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="154px" height="154px">
+            <g fill="none" stroke="#F44812" stroke-width="2">
+              <circle cx="77" cy="77" r="72" style="stroke-dasharray:480px, 480px; stroke-dashoffset: 960px;"></circle>
+              <circle id="colored" fill="#F44812" cx="77" cy="77" r="72" style="stroke-dasharray:480px, 480px; stroke-dashoffset: 960px;"></circle>
+              <polyline class="st0" stroke="#fff" stroke-width="10" points="43.5,77.8  112.2,77.8 " style="stroke-dasharray:100px, 100px; stroke-dashoffset: 200px;" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid text-center output">
+      <p>{{ output || "Fill the informations and click Check."}}</p>
+    </div>
+  </div>
+  <hr class="bg-dark">
+  <div class="container">
+    <h3 class="title text-center">Who Are The Members Of This Club?</h3>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control no-outline" id="listInput" name="listclub" placeholder="Full Club Name" value="">
+      <span id="and"></span>
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="submit" (click)="listClubMembers()">Search</button>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center tablecontainer">
+    <table id="displayTable">
+      <tr>
+        <th>{{ clubToDisplay["name"] }}</th>
+      </tr>
+      <tr *ngFor="let member of clubToDisplay['members']">
+        <td>{{ member }}</td>
+      </tr>
+    </table>
+    <p class="alert-danger" id="notfound">There is no club with this name. Please make sure you entered the full club name.</p>
+  </div>
+</div>
