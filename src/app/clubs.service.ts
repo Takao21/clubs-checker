@@ -7,7 +7,7 @@ import { IClub } from './subcomponents/club';
   providedIn: 'root'
 })
 export class ClubsService {
-  private _url: string = '/assets/data/clubs.json';
+  private _url: string = 'assets/data/clubs.json';
 
   constructor(private http: HttpClient) { }
 
