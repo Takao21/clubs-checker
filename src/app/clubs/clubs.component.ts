@@ -12,7 +12,6 @@ export class ClubsComponent implements OnInit {
 
   ngOnInit(): void {
     this._clubService.getClubs().subscribe(data => this.records = data);
-    console.log(this.records)
   }
 
 }
